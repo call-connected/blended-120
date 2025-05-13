@@ -1,0 +1,200 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: #ffffff;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.nav-item-span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.header-nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.header-reg-btn-in {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.header-reg-btn-up {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* хедер */
+/* герой */
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #22343d;
+}
+/* герой */
+/* секція різон */
+.reasons-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+}
+.reasons-item-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.375;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #22343d;
+}
+.reasons-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6875;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+}
+/* секція різон */
+/* секція "як це працює" */
+.work-title {
+  font-weight: 700;
+  font-size: 34px;
+  text-align: center;
+  color: #22343d;
+}
+.work-item-step {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  color: #22343d;
+}
+.work-item-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+  color: #22343d;
+}
+.work-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.work-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* секція "як це працює" */
+/* секція оферс */
+.offers-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+}
+.offers-business-subtitle,
+.offers-enterprise-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16667;
+  color: #000;
+}
+.business-text,
+.enterprise-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.77778;
+  text-align: center;
+  color: #22343d;
+}
+.offers-business-text,
+.offers-enterprise-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+/* секція оферс */
+/* секція промо */
+.section-promo-last {
+  background-color: #02897a;
+}
+.promo-text-last {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+}
+.promo-btn-last {
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+}
+/* третя секція кінець */
+/* футер початок */
+.logo-footer {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.1875;
+  color: #22343d;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-btn-enter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+}
+.footer-btn-up {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #02897a;
+}
+.footer-last-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 30px; */
+  line-height: 1.875;
+  color: #22343d;
+}

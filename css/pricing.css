@@ -41,192 +41,21 @@ header {
   background-color: #02897a;
 }
 /* хедер */
-.hero-headline {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 1.5;
-  color: #22343d;
-}
-.hero-text {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.55556;
-  color: #22343d;
-}
-.hero-btn-started {
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
-  background-color: #02897a;
-}
-.hero-btn-watch {
+.price-subtitle {
   font-weight: 600;
-  font-size: 16px;
-  text-decoration: underline;
-  text-decoration-skip-ink: none;
-  color: #02897a;
-}
-/* перша секція без картинки */
-.product-title {
-  font-weight: 700;
-  font-size: 32px;
-  text-align: center;
-  color: #22343d;
-}
-.product-list-item-subtitle {
-  font-weight: 600;
-  font-size: 22px;
-  color: #22343d;
-}
-.product-list-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-.product-btn {
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
-  background-color: #02897a;
-}
-/* друга секція без картинки */
-.management-title {
-  font-weight: 600;
-  font-size: 16px;
-  color: #22343d;
-}
-.management-title-span {
-  font-weight: 700;
-  font-size: 32px;
-  color: #22343d;
-}
-.management-list-item-subtitle {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-.management-list-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-/* третя секція без картинки */
-.customer-support-title {
-  font-weight: 600;
-  font-size: 16px;
-  color: #22343d;
-}
-.customer-support-title-span {
-  font-weight: 700;
-  font-size: 32px;
-  color: #22343d;
-}
-.customer-support-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-.customer-support-list-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-/* четверта секція без картинки */
-.optimisation-title {
-  font-weight: 600;
-  font-size: 16px;
-  color: #22343d;
-}
-.optimisation-title-span {
-  font-weight: 700;
-  font-size: 32px;
-  color: #22343d;
-}
-.optimisation-item-subtitle {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-.optimisation-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-/* п'ята секція без картинки */
-.process-title {
-  font-weight: 700;
-  font-size: 32px;
-  text-align: center;
-  color: #22343d;
-}
-.process-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  text-align: center;
-  color: #22343d;
-}
-.process-item-text {
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  color: #2f281e;
-}
-.process-btn {
-  font-weight: 700;
-  font-size: 16px;
-  color: #fff;
-  background-color: #02897a;
-}
-/* шоста секція без картинок */
-.content-title {
-  font-weight: 700;
-  font-size: 34px;
-  color: #22343d;
-}
-.content-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  color: #22343d;
-}
-.content-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.75;
-  color: #22343d;
-}
-.content-item-text-span {
-  font-weight: 700;
-}
-.content-item-subtitle {
-  font-weight: 700;
   font-size: 24px;
-  line-height: 1.66667;
   color: #22343d;
 }
-.content-item-subtitle-green {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 1.66667;
-  color: #02897a;
-}
-/* сьома секція без картинок */
 .price-title {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 40px;
+  text-align: center;
   color: #22343d;
 }
 .price-text {
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
   color: #22343d;
 }
 .price-list-subtitle-free,
@@ -346,44 +175,70 @@ header {
   font-size: 18px;
   color: #02897a;
 }
-/* восьма секція */
-.client-title {
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.78125;
-  letter-spacing: 0.01em;
+/* перша секція */
+.enterprise-subtitle {
+  font-weight: 600;
+  font-size: 24px;
   color: #22343d;
 }
-.client-text {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.75;
-  letter-spacing: 0.01em;
+.enterprise-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+}
+.enterprise-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+}
+.enterprise-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* друга секція */
+.product-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+}
+.product-list-subtitle {
+  font-weight: 600;
+  font-size: 24px;
   text-align: center;
   color: #22343d;
 }
-.client-item-text {
+.product-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
-  letter-spacing: 0.01em;
-  color: #737373;
+  color: #22343d;
 }
-.client-item-subtitle {
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.01em;
-  color: #02897a;
+/* друга секція кінець */
+/* третя секція початок */
+.question-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
 }
-.client-item-prof {
+.question-text {
+  font-weight: 400;
+  font-size: 18px;
+  color: #22343d;
+}
+.question-list-subtitle {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.71429;
-  letter-spacing: 0.01em;
-  color: #252b42;
+  font-size: 18px;
+  color: #22343d;
 }
-/* дев'ята секція */
+.question-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #22343d;
+}
+/* третя секція кінець */
 .section-promo-last {
   background-color: #02897a;
 }
@@ -399,7 +254,8 @@ header {
   font-size: 20px;
   color: #02897a;
 }
-/* десята сеція */
+/* третя секція кінець */
+/* футер початок */
 .logo-footer {
   font-weight: 700;
   font-size: 30px;
@@ -409,8 +265,6 @@ header {
 .footer-subtitle {
   font-weight: 500;
   font-size: 20px;
-
-  /* line-height: 30px; */
   line-height: 1.5;
   color: #22343d;
 }
