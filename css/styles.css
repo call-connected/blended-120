@@ -1,0 +1,451 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+header {
+  background-color: #ffffff;
+}
+.header-logo {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.nav-item-span {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.header-nav-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.header-reg-btn-in {
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  color: #173a56;
+}
+.header-reg-btn-up {
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* хедер */
+.hero-headline {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.55556;
+  color: #22343d;
+}
+.hero-btn-started {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+.hero-btn-watch {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+}
+/* перша секція без картинки */
+.product-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+}
+.product-list-item-subtitle {
+  font-weight: 600;
+  font-size: 22px;
+  color: #22343d;
+}
+.product-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.product-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* друга секція без картинки */
+.management-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+}
+.management-title-span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.management-list-item-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.management-list-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+/* третя секція без картинки */
+.customer-support-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+}
+.customer-support-title-span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.customer-support-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.customer-support-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+/* четверта секція без картинки */
+.optimisation-title {
+  font-weight: 600;
+  font-size: 16px;
+  color: #22343d;
+}
+.optimisation-title-span {
+  font-weight: 700;
+  font-size: 32px;
+  color: #22343d;
+}
+.optimisation-item-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.optimisation-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+/* п'ята секція без картинки */
+.process-title {
+  font-weight: 700;
+  font-size: 32px;
+  text-align: center;
+  color: #22343d;
+}
+.process-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  color: #22343d;
+}
+.process-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #2f281e;
+}
+.process-btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  background-color: #02897a;
+}
+/* шоста секція без картинок */
+.content-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+}
+.content-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  color: #22343d;
+}
+.content-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #22343d;
+}
+.content-item-text-span {
+  font-weight: 700;
+}
+.content-item-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+}
+.content-item-subtitle-green {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #02897a;
+}
+/* сьома секція без картинок */
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+}
+.price-text {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+}
+.price-list-subtitle-free,
+.price-list-item-premium {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+}
+.price-item-text-premium,
+.price-item-text-free {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+}
+.price-item-cost-free,
+.price-item-cost-premium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+.price-item-dollar-free,
+.price-item-dollar-premium {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.price-item-month-free,
+.price-item-month-premium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+.price-list-sublist-free,
+.price-list-sublist-premium {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+.price-btn-free,
+.price-btn-premium {
+  font-family: "Montserrat", sans-serif;
+  background: #02897a;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+/* зелена підсекція */
+.price-list-item-standard {
+  background-color: #02897a;
+}
+.price-list-subtitle-standard {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #fff;
+}
+.price-item-text-standard {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #fff;
+}
+.price-item-cost-standard {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.price-item-dollar-standard {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #fff;
+}
+.price-item-month-standard {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #e0e0e0;
+}
+.price-list-sublist-standard {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
+.price-btn-standard {
+  font-family: "Montserrat", sans-serif;
+  background: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+}
+/* восьма секція */
+.client-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.78125;
+  letter-spacing: 0.01em;
+  color: #22343d;
+}
+.client-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #22343d;
+}
+.client-item-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  letter-spacing: 0.01em;
+  color: #737373;
+}
+.client-item-subtitle {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  color: #02897a;
+}
+.client-item-prof {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71429;
+  letter-spacing: 0.01em;
+  color: #252b42;
+}
+.
+/* дев'ята секція */
+.section-promo-last {
+  background-color: #02897a;
+}
+/* НЕ ПРАЦЮЄ */
+.promo-text-last {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.514;
+  color: #fff;
+}
+.promo-btn-last {
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: #02897a;
+}
+/* десята сеція */
+.logo-footer {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 0.93333;
+  color: #173a56;
+}
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+
+  /* line-height: 30px; */
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-list-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.1875;
+  color: #22343d;
+}
+.footer-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #22343d;
+}
+.footer-btn-enter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+}
+.footer-btn-up {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  background-color: #02897a;
+}
+.footer-last-text {
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 30px; */
+  line-height: 1.875;
+  color: #22343d;
+}
