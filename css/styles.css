@@ -72,6 +72,7 @@ header {
 .header-reg {
   display: flex;
   gap: 21px;
+  align-items: center;
 }
 
 .header-reg-btn-in {
@@ -82,8 +83,9 @@ header {
   min-width: 105px;
   padding-top: 9px;
   padding-bottom: 9px;
-  border: 1px solid #bcd0e5;
   border-radius: 4px;
+  border: 1px solid #bcd0e5;
+  background-color: #fff;
 }
 
 .header-reg-btn-up {
@@ -95,6 +97,7 @@ header {
   padding-top: 9px;
   padding-bottom: 9px;
   border-radius: 4px;
+  border: none;
 }
 
 /*! хедер !*/
@@ -413,30 +416,47 @@ header {
 .process-list {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 auto;
 }
 .process-list-item {
   display: flex;
   align-items: center;
+  min-width: 408px;
+  align-content: center;
+  margin: 0 auto;
 }
-.process-list-item :first-child {
+/* Пофіксити відстань */
+.process-list-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
   margin-right: 20px;
+  margin-left: 20px;
 }
-.process-list-item :nth-child(2) {
-  margin-right: 100px;
-}
-.process-item-text {
+.procees-item-text {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
   color: #2f281e;
   min-width: 300px;
+  fill: #fff;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
+  padding: 13px 20px;
+  border-radius: 75px;
+  margin: 0 auto;
 }
 .process-btn {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
   background-color: #02897a;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 }
 /* шоста секція без картинок */
 .content-title {
@@ -449,12 +469,25 @@ header {
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
+  max-width: 465px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.content-list {
+  display: flex;
+}
+.content-list-item {
+  width: calc((100% - 60px) / 3);
+  margin: auto;
+  align-items: center;
 }
 .content-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+  margin-top: 24px;
+  margin-bottom: 12px;
 }
 .content-item-text-span {
   font-weight: 700;
@@ -472,33 +505,65 @@ header {
   color: #02897a;
 }
 /* сьома секція без картинок */
+.section-price .container {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
 .price-title {
   font-weight: 700;
   font-size: 34px;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .price-text {
   font-weight: 500;
   font-size: 16px;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 40px;
 }
-.price-list-subtitle-free,
-.price-list-item-premium {
+.price-list {
+  display: flex;
+}
+.price-list-item,
+.price-list-item-standard {
+  margin: 0 auto;
+  width: calc((100% - 72px * 2) / 3);
+}
+.price-list-item,
+.price-list-item-standard {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+.price-list-subtitle,
+.price-list-item,
+.price-list-subtitle-standard,
+.price-list-item-standard {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.66667;
   color: #22343d;
+  margin-top: 32px;
+  margin-bottom: 8px;
+  text-align: center;
 }
-.price-item-text-premium,
-.price-item-text-free {
+.price-item-text,
+.price-item-text-standard {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 2.5;
   color: #22343d;
+  text-align: center;
 }
-.price-item-cost-free,
-.price-item-cost-premium {
+.price-group {
+  display: flex;
+  margin-bottom: 16px;
+}
+.price-item-cost,
+.price-item-cost-standard {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 76px;
@@ -506,18 +571,22 @@ header {
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
+  margin-left: 83px;
+  margin-right: 7px;
+  min-width: 52px;
 }
-.price-item-dollar-free,
-.price-item-dollar-premium {
+.price-item-dollar,
+.price-item-dollar-standard {
   font-family: "Inter", sans-serif;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.25;
   letter-spacing: 0em;
   color: #02897a;
+  margin-top: 40px;
+  text-align: start;
 }
-.price-item-month-free,
-.price-item-month-premium {
+.price-item-month {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -525,22 +594,35 @@ header {
   letter-spacing: 0.01em;
   color: #afafaf;
 }
-.price-list-sublist-free,
-.price-list-sublist-premium {
+.price-list-sublist {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.375;
   letter-spacing: 0.01em;
   color: #22343d;
+  text-align: center;
 }
-.price-btn-free,
-.price-btn-premium {
+.price-sublist-item:not(last-child),
+.price-sublist-item-standard:not(last-child) {
+  margin-bottom: 16px;
+}
+
+.price-btn {
   font-family: "Montserrat", sans-serif;
   background: #02897a;
   font-weight: 600;
   font-size: 18px;
   color: #fff;
+  padding: 11px 19px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 32px;
 }
 /* зелена підсекція */
 .price-list-item-standard {
@@ -584,6 +666,7 @@ header {
   letter-spacing: 0.01em;
   color: #e0e0e0;
 }
+
 .price-list-sublist-standard {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -591,6 +674,10 @@ header {
   line-height: 1.375;
   letter-spacing: 0.01em;
   color: #fff;
+  text-align: center;
+}
+.price-sublist-item-standart {
+  margin-bottom: 16px;
 }
 .price-btn-standard {
   font-family: "Montserrat", sans-serif;
@@ -598,14 +685,28 @@ header {
   font-weight: 600;
   font-size: 18px;
   color: #02897a;
+  padding: 11px 19px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 32px;
 }
 /* восьма секція */
+.section-client .container {
+  margin-bottom: 100px;
+}
 .client-title {
   font-weight: 700;
   font-size: 32px;
   line-height: 1.78125;
   letter-spacing: 0.01em;
   color: #22343d;
+  text-align: center;
+  margin-bottom: 10px;
 }
 .client-text {
   font-weight: 500;
@@ -621,6 +722,18 @@ header {
   line-height: 1.75;
   letter-spacing: 0.01em;
   color: #737373;
+  margin-top: 62px;
+}
+.client-list {
+  margin-top: 40px;
+  display: flex;
+}
+.client-list-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 30px 35px;
+  width: calc((100% - 130px) / 3);
+  margin: auto;
 }
 .client-item-subtitle {
   font-weight: 600;
@@ -636,7 +749,17 @@ header {
   letter-spacing: 0.01em;
   color: #252b42;
 }
+.client-designer-group {
+  display: flex;
+  margin-top: 16px;
+}
+.designer-group-text {
+  margin-left: 14px;
+}
 /* дев'ята секція */
+.promo-flex {
+  display: flex;
+}
 .section-promo-last {
   background-color: #02897a;
 }
@@ -645,6 +768,8 @@ header {
   font-size: 32px;
   line-height: 1.514;
   color: #fff;
+  max-width: 510px;
+  margin-top: 49px;
 }
 .promo-btn-last {
   background-color: #fff;
