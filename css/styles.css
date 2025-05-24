@@ -759,9 +759,11 @@ header {
 /* дев'ята секція */
 .promo-flex {
   display: flex;
+  margin: auto;
 }
-.section-promo-last {
+.section-promo-last .container {
   background-color: #02897a;
+  border-radius: 32px;
 }
 .promo-text-last {
   font-weight: 600;
@@ -770,12 +772,32 @@ header {
   color: #fff;
   max-width: 510px;
   margin-top: 49px;
+  margin-bottom: 10px;
+  margin-right: 46px;
+}
+.promo-thumb {
+  width: fit-content;
+  height: fit-content;
+  margin-top: 4px;
+  margin-bottom: 10px;
+}
+.promo-thumb {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 .promo-btn-last {
   background-color: #fff;
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
+  padding: 10px 34px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: auto;
+  margin-bottom: 66px;
+  min-width: 150px;
 }
 /* десята сеція */
 .logo-footer {
