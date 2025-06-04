@@ -1,10 +1,13 @@
+/* #region all */
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 a {
   text-decoration: none;
 }
-ul {
+ul,
+ol {
   list-style: none;
   margin: 0 auto;
   padding-left: 0;
@@ -19,6 +22,12 @@ h6,
 p {
   margin: 0;
 }
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -29,7 +38,8 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-
+/* #endregion all */
+/* #region header */
 header {
   background-color: #ffffff;
 }
@@ -38,19 +48,32 @@ header {
   display: flex;
   align-items: center;
 }
-
 .header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-nav-flex {
+  flex-grow: 1;
+  padding-left: 237px;
+}
+.header-nav-list {
   display: flex;
   align-items: center;
   gap: 30px;
 }
 
+.head-logo-flex {
+  position: relative;
+  padding-left: 57px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
 .header-logo {
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93333;
   color: #173a56;
-  margin-right: 237px;
 }
 
 .nav-item-span {
@@ -59,7 +82,12 @@ header {
   line-height: 1.75;
   color: #22343d;
 }
-
+.header-icon-logo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .header-nav-link {
   font-weight: 400;
   font-size: 16px;
@@ -99,8 +127,8 @@ header {
   border-radius: 4px;
   border: none;
 }
-
-/*! хедер !*/
+/* #endregion header */
+/* #region hero */
 .hero-container {
   display: flex;
   margin-top: 100px;
@@ -165,7 +193,8 @@ header {
   width: 100%;
   object-fit: contain;
 }
-/* перша секція  */
+/* #endregion hero */
+/* #region product */
 .product-title {
   font-weight: 700;
   font-size: 32px;
@@ -185,6 +214,30 @@ header {
   width: calc((100% - 22px * 3) / 4);
   padding: 0 4px;
   margin-bottom: 50px;
+}
+.bg-svg-product {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+.bg-svg-product-green {
+  background: #02897a;
+}
+.bg-svg-product-blue {
+  background: #4d8dff;
+}
+.bg-svg-product-purple {
+  background: #740a76;
+}
+.bg-svg-product-orange {
+  background: #f03e3d;
+}
+.product-icon {
+  fill: #fff;
 }
 .product-list-item-subtitle {
   font-weight: 600;
@@ -215,7 +268,8 @@ header {
   margin-right: auto;
   /* розібратись з кнопкою чого вона їде */
 }
-/* друга секція без картинки */
+/* #endregion product  */
+/* #region managament */
 .management-container {
   display: flex;
   margin-top: 100px;
@@ -273,14 +327,15 @@ header {
 .management-thumb {
   width: 540px;
   height: 500px;
-  margin-left: 84px;
 }
 .management-thumb img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-/* третя секція  */
+
+/* #endregion managament */
+/* #region customer support */
 
 .customer-support-container {
   display: flex;
@@ -290,19 +345,18 @@ header {
 .customer-support-thumb {
   width: 540px;
   height: 500px;
-  margin-right: 84px;
 }
 .customer-support-thumb img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
-/* Розібратись з картинкою ЧОГО ВОНА БІЛЬША?? */
 .customer-support-text-group {
   max-width: 450px;
   margin-top: 41px;
   margin-bottom: 40px;
   margin-left: 84px;
+  margin-right: 35px;
 }
 .customer-support-subtitle {
   font-weight: 600;
@@ -316,6 +370,30 @@ header {
   color: #22343d;
   margin-bottom: 25px;
 }
+.icon-tick {
+  fill: #fff;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bg-icon-tick {
+  border: 2.92px solid #fff;
+  border-radius: 14px;
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
+  position: relative;
+}
+.bg-icon-tick-orange {
+  background: #f90;
+}
+.bg-icon-tick-red {
+  background: #f03e3d;
+}
+.bg-icon-tick-blue {
+  background: #4d8dff;
+}
 .customer-support-text {
   font-weight: 400;
   font-size: 16px;
@@ -328,14 +406,20 @@ header {
   flex-direction: column;
   gap: 30px;
 }
+.customer-support-list-item {
+  display: flex;
+  align-items: center;
+}
 .customer-support-list-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.625;
   color: #22343d;
   margin-left: 30px;
+  padding-right: 38px;
 }
-/* четверта секція  */
+/* #endregion customer support */
+/* #region optimisation */
 .optimisation-container {
   display: flex;
   margin-top: 100px;
@@ -381,14 +465,14 @@ header {
 .optimisation-thumb {
   width: 540px;
   height: 500px;
-  margin-left: 84px;
 }
 .optimisation-thumb img {
   height: 100%;
   width: 100%;
   object-fit: contain;
 }
-/* п'ята секція */
+/* #endregion optimisation */
+/* #region process */
 .process-container {
   margin-top: 150px;
   margin-bottom: 100px;
@@ -458,7 +542,8 @@ header {
   margin-right: auto;
   margin-top: 50px;
 }
-/* шоста секція без картинок */
+/* #endregion process */
+/* #region content */
 .content-title {
   font-weight: 700;
   font-size: 34px;
@@ -478,8 +563,11 @@ header {
 }
 .content-list-item {
   width: calc((100% - 60px) / 3);
-  margin: auto;
   align-items: center;
+  border: 1px solid #dedede;
+  border-radius: 8px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 .content-item-text {
   font-weight: 400;
@@ -488,6 +576,7 @@ header {
   color: #22343d;
   margin-top: 24px;
   margin-bottom: 12px;
+  margin-left: 24px;
 }
 .content-item-text-span {
   font-weight: 700;
@@ -497,14 +586,21 @@ header {
   font-size: 24px;
   line-height: 1.66667;
   color: #22343d;
+  margin-left: 27px;
+  margin-bottom: 40px;
+  margin-right: 27px;
 }
 .content-item-subtitle-green {
   font-weight: 700;
   font-size: 24px;
   line-height: 1.66667;
   color: #02897a;
+  margin-left: 27px;
+  margin-bottom: 40px;
+  margin-right: 27px;
 }
-/* сьома секція без картинок */
+/* #endregion content */
+/* #region price*/
 .section-price .container {
   margin-top: 150px;
   margin-bottom: 100px;
@@ -695,7 +791,8 @@ header {
   margin-top: 30px;
   margin-bottom: 32px;
 }
-/* восьма секція */
+/* #endregion price*/
+/* #region client*/
 .section-client .container {
   margin-bottom: 100px;
 }
@@ -716,13 +813,19 @@ header {
   text-align: center;
   color: #22343d;
 }
+
+.icon-star-wrap {
+  margin-top: 2px;
+  margin-left: 2px;
+}
+
 .client-item-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
   letter-spacing: 0.01em;
   color: #737373;
-  margin-top: 62px;
+  margin-top: 16px;
 }
 .client-list {
   margin-top: 40px;
@@ -731,7 +834,7 @@ header {
 .client-list-item {
   border: 1px solid #dedede;
   border-radius: 5px;
-  padding: 30px 35px;
+  padding: 26px 26px;
   width: calc((100% - 130px) / 3);
   margin: auto;
 }
@@ -756,7 +859,8 @@ header {
 .designer-group-text {
   margin-left: 14px;
 }
-/* дев'ята секція */
+/* #endregion client*/
+/* #region promo*/
 .promo-flex {
   display: flex;
   margin: auto;
@@ -764,6 +868,7 @@ header {
 .section-promo-last .container {
   background-color: #02897a;
   border-radius: 32px;
+  margin-bottom: 100px;
 }
 .promo-text-last {
   font-weight: 600;
@@ -799,18 +904,74 @@ header {
   margin-bottom: 66px;
   min-width: 150px;
 }
-/* десята сеція */
+/* #endregion promo*/
+/* #region footer*/
+.flex-footer {
+  display: flex;
+  padding-left: 56px;
+  gap: 80px;
+}
+.logo-footer-flex {
+  position: relative;
+  padding-left: 57px;
+  align-items: center;
+  justify-content: center;
+}
+.logo-footer-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .logo-footer {
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93333;
   color: #173a56;
 }
-.footer-subtitle {
-  font-weight: 500;
-  font-size: 20px;
+.social-icons-group {
+  margin-top: 18px;
+  max-width: 152px;
+}
+.social-icons-list {
+  display: flex;
+  gap: 16px;
+  margin-top: 18px;
+}
+.social-icons-link a {
+  line-height: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: #edfffc;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.social-icons {
+  stroke-width: 2px;
+  stroke: #02897a;
+  fill: transparent;
+}
 
-  /* line-height: 30px; */
+.resource-flex {
+  max-width: 118px;
+  max-height: 205px;
+  margin-right: 49px;
+  margin-left: 66px;
+}
+.legal-stuff {
+  width: 131px;
+  height: 205px;
+}
+.btn-text-group {
+  display: flex;
+  flex-direction: column;
+  max-width: 325px;
+  max-height: 200px;
+}
+.footer-subtitle {
+  font-size: 20px;
   line-height: 1.5;
   color: #22343d;
 }
@@ -820,6 +981,13 @@ header {
   line-height: 2.1875;
   color: #22343d;
 }
+.footer-list-item a,
+.footer-list-item a:visited,
+.footer-list-item a:active,
+.footer-list-item a:hover {
+  color: #22343d;
+}
+
 .footer-text {
   font-weight: 500;
   font-size: 20px;
@@ -838,12 +1006,54 @@ header {
   text-align: center;
   color: #fff;
   background-color: #02897a;
+  margin-top: 25px;
+  padding: 8px 15px;
+  max-width: 131px;
+  border-radius: 4px;
+}
+.footer-input-group {
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.footer-input {
+  padding: 10px 12px;
+  padding-left: 42px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  flex: 1;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #02897a;
+}
+.footer-input::placeholder {
+  color: #02897a;
+}
+.phone-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  fill: #02897a;
+}
+.footer-logo-col {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 .footer-last-text {
   font-weight: 400;
   font-size: 16px;
-
-  /* line-height: 30px; */
+  text-align: center;
   line-height: 1.875;
   color: #22343d;
+  margin-top: 10px;
+  margin-bottom: 40px;
 }
+/* #endregion footer*/
