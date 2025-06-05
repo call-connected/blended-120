@@ -864,11 +864,13 @@ header {
 .promo-flex {
   display: flex;
   margin: auto;
+  padding-left: 50px;
 }
 .section-promo-last .container {
   background-color: #02897a;
   border-radius: 32px;
   margin-bottom: 100px;
+  max-width: 968px;
 }
 .promo-text-last {
   font-weight: 600;
@@ -908,7 +910,6 @@ header {
 /* #region footer*/
 .flex-footer {
   display: flex;
-  padding-left: 56px;
   gap: 80px;
 }
 .logo-footer-flex {

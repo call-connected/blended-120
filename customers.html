@@ -15,37 +15,45 @@
     <link rel="stylesheet" href="./css/customers.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="header-logo"
-          ><img src="./images/logo-min.png" alt="logo" width="40" height="36" />
-          Product</a
-        >
-        <ul class="header-nav">
-          <li class="header-nav-list">
-            <a href="./index.html"
-              ><span class="nav-item-span">Product</span></a
+    <header class="section-header">
+      <div class="header-wrap container">
+        <nav class="header-nav">
+          <div class="head-logo-flex">
+            <a href="./index.html" class="header-logo">
+              <svg class="header-icon-logo" width="40" height="36">
+                <use href="./images/icons.svg#icon-logo"></use>
+              </svg>
+              Product</a
             >
+          </div>
+          <div class="header-nav-flex">
+            <ul class="header-nav-list">
+              <li class="header-nav-item">
+                <a href="./index.html"
+                  ><span class="nav-item-span">Product</span></a
+                >
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="./customers.html">Customers</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="./pricing.html">Pricing</a>
+              </li>
+              <li class="header-nav-item">
+                <a class="header-nav-link" href="#Resource">Resources</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <ul class="header-reg">
+          <li class="header-reg-list">
+            <button class="header-reg-btn-in" type="button">Sign In</button>
           </li>
-          <li class="header-nav-list">
-            <a class="header-nav-item" href="./customers.html">Customers</a>
-          </li>
-          <li class="header-nav-list">
-            <a class="header-nav-item" href="./pricing.html">Pricing</a>
-          </li>
-          <li class="header-nav-list">
-            <a class="header-nav-item" href="#Resource">Resources</a>
+          <li class="header-reg-list">
+            <button class="header-reg-btn-up" type="button">Sign Up</button>
           </li>
         </ul>
-      </nav>
-      <ul class="header-reg">
-        <li class="header-reg-list">
-          <button class="header-reg-btn-in" type="button">Sign In</button>
-        </li>
-        <li class="header-reg-list">
-          <button class="header-reg-btn-up" type="button">Sign Up</button>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <section class="section-hero">
@@ -105,24 +113,45 @@
         <h2 class="reasons-title">Why Choose Product?</h2>
         <ul class="reasons-list">
           <li class="reasons-list-item">
+            <div class="bg-svg-product bg-svg-product-green">
+              <svg class="product-icon" width="11" height="18">
+                <use href="./images/icons.svg#icon-product-1"></use>
+              </svg>
+            </div>
             <h3 class="reasons-item-subtitle">Special Business</h3>
             <p class="reasons-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
+              Product helps you see how many <br />
+              more days you need to work <br />
+              to reach your financial goal<br />
+              for the month and year.
             </p>
           </li>
           <li class="reasons-list-item">
+            <div class="bg-svg-product bg-svg-product-blue">
+              <svg class="product-icon" width="18" height="18">
+                <use href="./images/icons.svg#icon-product-2"></use>
+              </svg>
+            </div>
             <h3 class="reasons-item-subtitle">Instant Result</h3>
             <p class="reasons-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
+              Product helps you see how many <br />
+              more days you need to work <br />
+              to reach your financial goal<br />
+              for the month and year.
             </p>
           </li>
           <li class="reasons-list-item">
+            <div class="bg-svg-product bg-svg-product-orange">
+              <svg class="product-icon" width="16" height="18">
+                <use href="./images/icons.svg#icon-product-3"></use>
+              </svg>
+            </div>
             <h3 class="reasons-item-subtitle">Fastest way to organize</h3>
             <p class="reasons-item-text">
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year.
+              Product helps you see how many <br />
+              more days you need to work <br />
+              to reach your financial goal<br />
+              for the month and year.
             </p>
           </li>
         </ul>
@@ -137,28 +166,35 @@
               width="500"
               height="279.23"
             />
-            <p class="work-item-step">STEP 1</p>
-            <h3 class="work-item-subtitle">Apply for a product</h3>
-            <p class="work-item-text">
-              Completing our easy step-by-step application form gives you access
-              to multiple business with multiple products. We analyse your
-              business through our proprietary credit analysis technology
-            </p>
+            <div class="work-text-group">
+              <p class="work-item-step">STEP 1</p>
+              <h3 class="work-item-subtitle">Apply for a product</h3>
+              <p class="work-item-text">
+                Completing our easy step-by-step application form <br />gives
+                you access to multiple business with multiple <br />products. We
+                analyse your business through our<br />
+                proprietary credit analysis technology
+              </p>
+            </div>
           </li>
           <li class="work-list-item">
-            <p class="work-item-step">STEP 2</p>
-            <h3 class="work-item-subtitle">Pay fully refundable</h3>
-            <p class="work-item-text">
-              Product will contactting you instantly to receive payment of the
-              Application Fee. if no offer of product is available, your fee
-              will be fully refunded.
-            </p>
-            <img
-              src="./images_customers/mac2.png"
-              alt="An image on the laptop"
-              width="500"
-              height="279.57"
-            />
+            <div class="work-text-group-reverce">
+              <p class="work-item-step">STEP 2</p>
+              <h3 class="work-item-subtitle">Pay fully refundable</h3>
+              <p class="work-item-text">
+                Product will contactting you instantly to receive<br />
+                payment of the Application Fee. if no offer of product is<br />
+                available, your fee will be fully refunded.
+              </p>
+            </div>
+            <div class="work-reverce-img">
+              <img
+                src="./images_customers/mac2.png"
+                alt="An image on the laptop"
+                width="500"
+                height="279.57"
+              />
+            </div>
           </li>
           <li class="work-list-item">
             <img
@@ -167,12 +203,15 @@
               width="500"
               height="279.57"
             />
-            <p class="work-item-step">STEP 3</p>
-            <h3 class="work-item-subtitle">Completion</h3>
-            <p class="work-item-text">
-              Product will continue to liase between borrower and manager to
-              procees and complete a quick and efficient settlement
-            </p>
+            <div class="work-text-group">
+              <p class="work-item-step">STEP 3</p>
+              <h3 class="work-item-subtitle">Completion</h3>
+              <p class="work-item-text">
+                Product will continue to liase between borrower and<br />
+                manager to procees and complete a quick and<br />
+                efficient settlement
+              </p>
+            </div>
           </li>
         </ul>
         <button class="work-btn" type="button">Get in touch with us</button>
@@ -227,44 +266,97 @@
         </ul>
       </section>
       <section class="section-promo-last">
-        <h2 class="promo-title-last">promo</h2>
-        <p class="promo-text-last">
-          Join 100 Compannies who boost their business with Product
-        </p>
-        <img
-          src="./images_customers/screen.png"
-          alt="screen"
-          width="351"
-          height="331"
-        />
-        <button class="promo-btn-last" type="button">Get This</button>
+        <div class="container">
+          <h2 class="promo-title-last visually-hidden">promo</h2>
+          <div class="promo-flex">
+            <p class="promo-text-last">
+              Join 100 Compannies who boost their business with Product
+            </p>
+            <div class="promo-thumb">
+              <img
+                src="./images_customers/screen.png"
+                alt="screen"
+                width="351"
+              />
+            </div>
+          </div>
+          <button class="promo-btn-last" type="button">Get This</button>
+        </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="logo-footer" href="./index.html">
-        <img src="./images/logo-min.png" alt="logo" width="40" />Product</a
-      >
-      <h3 id="Resource" class="footer-subtitle">Resource</h3>
-      <ul class="footer-list-link">
-        <li class="footer-list-item"><a href="">About Us</a></li>
-        <li class="footer-list-item"><a href="">Blog</a></li>
-        <li class="footer-list-item"><a href="">Contact</a></li>
-        <li class="footer-list-item"><a href="">FAQ</a></li>
-      </ul>
-      <h3 class="footer-subtitle">Legal Stuff</h3>
-      <ul class="footer-list-link">
-        <li class="footer-list-item"><a href="">Disclaimer</a></li>
-        <li class="footer-list-item"><a href="">Financing</a></li>
-        <li class="footer-list-item"><a href="">Privacy Policy</a></li>
-      </ul>
-      <p class="footer-text">knowing you're always on the best energy deal.</p>
-      <button class="footer-btn-enter" type="button">
-        Enter your phone number
-      </button>
-      <button class="footer-btn-up" type="button">Sign up Now</button>
-      <p class="footer-last-text">
-        Made With Love By Figmaland All Right Reserved
-      </p>
+      <div class="container">
+        <div class="flex-footer">
+          <div class="footer-logo-col">
+            <div>
+              <div class="logo-footer-flex">
+                <a class="logo-footer" href="./index.html">
+                  <svg class="logo-footer-icon" width="40" height="36">
+                    <use href="./images/icons.svg#icon-logo"></use>
+                  </svg>
+                  Product</a
+                >
+              </div>
+
+              <div class="social-icons-group">
+                <ul class="social-icons-list">
+                  <li class="social-icons-link">
+                    <a href="">
+                      <svg class="social-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons-link">
+                    <a href="">
+                      <svg class="social-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons-link">
+                    <a href="">
+                      <svg class="social-icons" width="24" height="24">
+                        <use href="./images/icons.svg#icon-twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="resource-flex">
+            <h3 id="Resource" class="footer-subtitle">Resource</h3>
+            <ul class="footer-list-link">
+              <li class="footer-list-item"><a href="#">About Us</a></li>
+              <li class="footer-list-item"><a href="#">Blog</a></li>
+              <li class="footer-list-item"><a href="#">Contact</a></li>
+              <li class="footer-list-item"><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="legal-stuff">
+            <h3 class="footer-subtitle">Legal Stuff</h3>
+            <ul class="footer-list-link">
+              <li class="footer-list-item"><a href="#">Disclaimer</a></li>
+              <li class="footer-list-item"><a href="#">Financing</a></li>
+              <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="btn-text-group">
+            <h3 class="footer-subtitle">
+              knowing you're always on the best energy deal.
+            </h3>
+            <div class="footer-input-group">
+              <input class="footer-input" type="tel" />
+            </div>
+            <button class="footer-btn-up" type="button">Sign up Now</button>
+          </div>
+        </div>
+        <p class="footer-last-text">
+          Made With Love By Figmaland All Right Reserved
+        </p>
+      </div>
     </footer>
   </body>
 </html>
